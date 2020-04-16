@@ -12,3 +12,9 @@ Ajout du fichier CSS classique, plus un fichier CSS "Sanitize" pour "reset" le C
 # CSS
 
 Utilisation de FlexBox et Grid pour une page responsive.
+
+Couleurs prises sur la palette de couleurs de Material Design.
+
+Utilisation des Font Systems avec les CSS Tricks sur css-tricks.com.
+
+Utilisation de la fluid typo.
