@@ -1,0 +1,41 @@
+.calc {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border: 5px solid seagreen;
+}
+
+.screen {
+    height: 20vh;
+    border: 5px solid goldenrod;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.screen > span {
+    border: 5px solid red;
+}
+
+.keys {
+    height: 80%;
+    border: 5px solid red;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.keys > * { /* Sélectionne tous les enfants de keys */
+    border: 1px solid rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div[data-key = "AC"] {  /* Pour choisir une div */
+    grid-column: 1/4;
+}
+
+div[data-key = "0"] {
+    grid-column: 1/3;
+}
