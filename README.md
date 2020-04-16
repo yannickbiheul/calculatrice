@@ -18,3 +18,9 @@ Couleurs prises sur la palette de couleurs de Material Design.
 Utilisation des Font Systems avec les CSS Tricks sur css-tricks.com.
 
 Utilisation de la fluid typo.
+
+# JavaScript
+
+Utilisation de StandardJS et ses snippets pour Visual Studio Code.
+
+Utilisation de map() pour parcourir chaque entrée d'un tableau.
