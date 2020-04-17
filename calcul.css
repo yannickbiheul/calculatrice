@@ -20,8 +20,11 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    font-size: 1.5em;
     border: 1px solid #ECEFF155;
+}
+
+.screen > span {
+    font-size: 3em;
 }
 
 .keys {
